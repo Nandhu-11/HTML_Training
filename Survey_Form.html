@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey_Form</title>
+    <style>
+        div {
+          border: 1px solid rgb(0, 0, 0);
+          margin-top: 10px;
+          margin-bottom: 150px;
+          margin-right: 500px;
+          margin-left: 500px;
+          background-color: rgb(245, 209, 251);
+        }
+        </style>
+</head>
+<body>
+   
+            <h1 align="center" style="color:rgb(47, 0, 255)" >Enter Your Basic Details</h1>
+           <div><form align="justify" id="register" method="post" action="Thankyou.html">
+                <label><b>First Name * :</b></label>
+                <input type="text" name="fname"
+                id="name" placeholder="Enter Your First Name" required>
+                <br>
+                <br><br>
+                <label><b>Last Name * :</b></label>
+                
+                <input type="text" name="lname"
+                id="name" placeholder="Enter Your Last Name" required>
+                <br>
+                <br><br>
+                <label><b>Date Of Birth * :</b></label>
+                
+                <input type="date" name="date"
+                id="name" placeholder="Enter Your DOB" required>
+                <br>
+                <br><br>
+                <label><b>Your Age * :</b></label>
+                
+                <input type="number" name="age"
+                id="name" placeholder="How Old are You?" required>
+                <br>
+                <br><br>
+                <label><b>Permanent Address * :</b></label>
+                
+                <textarea row="4" col="15" placeholder="Address">
+                </textarea>
+                <br>
+                <br><br>
+                <label><b>Phone Number * :</b></label>
+                
+                <input type="phone" name="pno"
+                id="name" placeholder="Enter Your Phone No" required>
+                <br>
+                <br><br>
+                <label><b>Email * :</b></label>
+                
+                <input type="email" name="email"
+                id="name" placeholder="Enter Your Email id" required>
+                <br>
+                <br><br>
+                <label><b>Gender * :</b></label>
+                
+                <input type="radio" name="gender" id="Male">
+                <span id="male">Male</span>
+                <input type="radio" name="gender" id="Female">
+                <span id="female">Female</span>
+                <br>
+                <br><br>
+                <label><b>Known language * :</b></label>
+                
+                <input type="checkbox" name="lang" id="tamil">
+                <span id="tamil">Tamil</span>
+                <input type="checkbox" name="lang" id="english">
+                <span id="english">English</span>
+                <input type="checkbox" name="lang" id="Hindi">
+                <span id="Hindi">Hindi</span>
+                <br>
+                <br><br>
+                <label><b>Highest Educational Qualification * :</b></label>
+                
+                <select name="education" id="education" required>
+                <option value="college">Select Option</option>
+                <option value="10th">10<sup>th</sup></option>
+                <option value="12th">12<sup>th</sup>/Diplomo</option>
+                <option value="10th">UG</option>
+                <option value="10th">PG</option>
+                <option value="10th">None</option>
+                </select>
+                <br>
+                <br><br>
+                <label><b>Educational Institution * :</b></label>
+                
+                <select name="institution" id="institution" required>
+                <option value="college">Select Option</option>
+                <option value="college">Karpagam College Of Engineering</option>
+                <option value="college">Karpagam Academey Of Higher Education</option>
+                <option value="college">REC College Of Engineering</option>
+                <option value="college">REC College Of Thecnology</option>
+                <option value="college">Saranathan College Of Enginnering</option>
+                <option value="college">MIT Pune</option>    
+                <option value="college">CIT Coimbatore</option>
+                <option value="college">GCT Coimbatore</option>  
+                <option value="college">Anna University Chennai</option>
+                <option value="college">None</option> 
+                </select>
+                <br>
+                <br><br>
+                <label><b>Other Institutions</b></label>
+                
+                <textarea row="2" col="15" placeholder="Others">
+                </textarea>
+                <br>
+                <br><br>
+                <label><b>Educational Certifications * :</b></label>
+                <input type="file" value="file" required>
+                <br>
+                <br><br>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </div>
+            </form>
+   
+    
+</body>
+</html>
